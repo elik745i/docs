@@ -98,3 +98,5 @@ The `hex` file will upload to Tasmota and Tasmota will flash the new client firm
 ![Upgrade Success](https://user-images.githubusercontent.com/470015/68074819-80dfe280-fda8-11e9-9652-2587fd2d7e7b.png)
 
 After the device completes a restart you should now have an Arduino Pro Mini running as a client where the blink is controlled from Tasmota's internal one-second callback.
+
+* In order to get SerialEnabled flag to be set and communication back from microcontroller to TASMOTA device, Client RST pin MUST be set in CONFIGURATION.
